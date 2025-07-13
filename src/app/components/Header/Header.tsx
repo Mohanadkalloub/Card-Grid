@@ -11,9 +11,7 @@ export default function Header({ selectedName }: THeaderProps) {
             Hi , i am {selectedName}
           </h1>
         ) : (
-          <h1 className="text-xl font-bold text-fuchsia-600 ">
-            Not Selected Name
-          </h1>
+          <h1 className="text-xl font-bold text-fuchsia-600 ">Name</h1>
         )}
       </div>
     </header>
