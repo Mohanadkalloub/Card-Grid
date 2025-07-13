@@ -12,9 +12,7 @@ export default function Footer({ selectedName }: TFooterProps) {
             Hi , i am {selectedName}
           </h1>
         ) : (
-          <h1 className="text-xl font-bold text-fuchsia-600">
-            Not Selected Name
-          </h1>
+          <h1 className="text-xl font-bold text-fuchsia-600">Name</h1>
         )}
       </div>
     </footer>
